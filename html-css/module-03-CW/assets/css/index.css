@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: gray;
+  padding: 10px 0;
+}
+
+.title {
+  font-size: 30px;
+}
+.navigation {
+    
+}
+.menu {
+  text-align: right;
+}
+.content {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.menu__item {
+  display: inline-block;
+  margin-right: 20px;
+}
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__link {
+  padding: 5 15px;
+  background-color: black;
+  color: red;
+  text-decoration: none;
+}
+
+.menu__link:hover {
+  background: green;
+}
+
+.information-block {
+    text-align: center;
+    background: black;
+    padding: 20px;
+}
+
+.logo {
+    max-width: 300px;
+}
+
+.number {
+    text-decoration: line-through;
+}
+
+.text {
+    font-style: 30px;
+    line-height: 30px;
+    color: white;
+}
+
+.parallax {
+    background-image: url(../images/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
