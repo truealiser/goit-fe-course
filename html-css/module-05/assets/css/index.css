@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,900&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -63,7 +62,7 @@
 }
 
 .section-title {
-  margin-top: 100px;
+  padding-top: 100px;
   text-align: center;
   font-size: 48px;
   color: #515151;
@@ -89,6 +88,7 @@
   width: 255px;
   height: 325px;
   float: left;
+  position: relative;
 }
 
 .product-bg {
@@ -98,6 +98,7 @@
 }
 
 .product-img {
+  position: relative;
   display: table-cell;
   vertical-align: middle;
   text-align: center;
@@ -146,7 +147,7 @@
 
 /* Slider */
 
-.slide {
+.slider-bg {
   position: relative;
   background: url("/assets/img/background/bg1.jpg");
   width: 1600px;
@@ -155,7 +156,38 @@
   background-size: cover;
 }
 
-.slide-heading {
+.slider-ctrl {
+  position: absolute;
+  top: 230px;
+  background-color: #1abc9c;
+  border: none;
+  width: 104px;
+  height: 104px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.slider-ctrl::hover {
+  background-color: #709d8c;
+}
+
+.slider-ctrl-prev {
+  left: 245px;
+}
+
+.pe-7s-angle-left {
+  font-size: 100px;
+}
+
+.slider-ctrl-next {
+  right: 245px;
+}
+
+.pe-7s-angle-right {
+  font-size: 100px;
+}
+
+.slider-heading {
   position: absolute;
   text-transform: uppercase;
   color: #ffffff;
@@ -167,14 +199,64 @@
   top: 208px;
 }
 
-main {
+.main-bg {
+  width: 1600px;
   background-color: #e9f0fd;
 }
 
-.slide-heading:first-line {
+.slider-heading:first-line {
   font-weight: 900;
   font-size: 60px;
   line-height: 82px;
+}
+
+/* Position icon */
+
+.icon-border {
+  text-decoration: none;
+  top: 79px;
+  background-color: transparent;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+
+.icon-border:hover {
+  background-color: #1abc9c;
+}
+
+.icon-border-one {
+  left: 45px;
+}
+
+.pe-7s-like {
+  font-size: 30px;
+  color: #ffffff;
+  line-height: 32px;
+}
+
+.icon-border-two {
+  left: 105px;
+}
+
+.pe-7s-shuffle {
+  font-size: 30px;
+  color: #ffffff;
+  line-height: 32px;
+}
+
+.icon-border-three {
+  right: 45px;
+}
+
+.pe-7s-clock {
+  font-size: 30px;
+  color: #ffffff;
+  line-height: 32px;
+}
+
+.featured:hover .product-bg {
+
 }
 
 /* Footer */
@@ -197,6 +279,7 @@ main {
   color: rgb(254, 254, 254);
   line-height: 28px;
   font-weight: 400;
+  letter-spacing: -0.02em;
 }
 
 .footer-color {
