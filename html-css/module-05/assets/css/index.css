@@ -149,7 +149,7 @@
 
 .slider-bg {
   position: relative;
-  background: url("/assets/img/background/bg1.jpg");
+  background: url("./img/background/bg1.jpg");
   width: 1600px;
   height: 600px;
   margin: 0 auto;
