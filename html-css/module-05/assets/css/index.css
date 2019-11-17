@@ -107,6 +107,8 @@
 }
 
 .product-container {
+  position: absolute;
+  bottom: 0px;
   width: 255px;
   height: 40px;
 }
@@ -247,12 +249,6 @@
   right: 45px;
 }
 
-.product-icon-hov {
-  background: url(../img/background/bg3.png);
-  width: 235px;
-  height: 261px;
-}
-
 .icon-border-cart {
   position: absolute;
   width: 166px;
@@ -285,7 +281,7 @@
 
 .img-hover {
   position: absolute;
-  height: 322px;
+  height: 285px;
   width: 255px;
   top: 0;
   left: 0;
