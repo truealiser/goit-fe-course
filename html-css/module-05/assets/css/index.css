@@ -167,7 +167,7 @@
   color: #ffffff;
 }
 
-.slider-ctrl::hover {
+.slider-ctrl:hover {
   background-color: #709d8c;
 }
 
@@ -176,7 +176,7 @@
 }
 
 .pe-7s-angle-left {
-  font-size: 100px;
+  font-size: 80px;
 }
 
 .slider-ctrl-next {
@@ -184,7 +184,7 @@
 }
 
 .pe-7s-angle-right {
-  font-size: 100px;
+  font-size: 80px;
 }
 
 .slider-heading {
@@ -281,6 +281,14 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 48px;
+}
+
+.img-hover {
+  position: absolute;
+  height: 322px;
+  width: 255px;
+  top: 0;
+  left: 0;
 }
 
 .icon-hover {
